@@ -14,7 +14,6 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 import food.delivery.domain.*;
 
-
 @Service
 @Transactional
 public class PolicyHandler{

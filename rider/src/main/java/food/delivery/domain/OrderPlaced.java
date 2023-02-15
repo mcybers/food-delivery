@@ -13,6 +13,7 @@ public class OrderPlaced extends AbstractEvent {
     private Object options;
     private String address;
     private String customerId;
+    private String storeId;
 }
 
 

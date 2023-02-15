@@ -38,7 +38,8 @@
                     @click="save"
                     v-else
             >
-                Save
+                Pick
+                ConfirmDelivered
             </v-btn>
             <v-btn
                     color="deep-purple lighten-2"

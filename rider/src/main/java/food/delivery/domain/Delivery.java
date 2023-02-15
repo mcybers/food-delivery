@@ -8,11 +8,13 @@ import java.util.List;
 import lombok.Data;
 import java.util.Date;
 
+
 @Entity
 @Table(name="Delivery_table")
 @Data
 
 public class Delivery  {
+
 
     
     @Id
@@ -64,7 +66,7 @@ public class Delivery  {
 
 
 
-    public static void 주문정보복제(OrderPlaced orderPlaced){
+    public static void copyOrder(OrderPlaced orderPlaced){
 
         /** Example 1:  new item 
         Delivery delivery = new Delivery();

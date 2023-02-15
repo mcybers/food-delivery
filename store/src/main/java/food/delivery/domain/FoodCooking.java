@@ -7,11 +7,13 @@ import java.util.List;
 import lombok.Data;
 import java.util.Date;
 
+
 @Entity
 @Table(name="FoodCooking_table")
 @Data
 
 public class FoodCooking  {
+
 
     
     @Id
@@ -52,6 +54,12 @@ public class FoodCooking  {
     
     
     private String storeId;
+    
+    
+    
+    
+    
+    private String customerId;
 
     @PostPersist
     public void onPostPersist(){
@@ -83,7 +91,7 @@ public class FoodCooking  {
 
     }
 
-    public static void 주문정보복제(OrderPlaced orderPlaced){
+    public static void copyOrder(OrderPlaced orderPlaced){
 
         /** Example 1:  new item 
         FoodCooking foodCooking = new FoodCooking();

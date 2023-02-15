@@ -4,6 +4,7 @@ import food.delivery.infra.AbstractEvent;
 import lombok.Data;
 import java.util.*;
 
+
 @Data
 public class OrderRejected extends AbstractEvent {
 

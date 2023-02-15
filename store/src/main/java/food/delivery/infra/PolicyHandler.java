@@ -14,7 +14,6 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 import food.delivery.domain.*;
 
-
 @Service
 @Transactional
 public class PolicyHandler{
@@ -24,16 +23,16 @@ public class PolicyHandler{
     public void whatever(@Payload String eventString){}
 
     @StreamListener(value=KafkaProcessor.INPUT, condition="headers['type']=='OrderPlaced'")
-    public void wheneverOrderPlaced_주문정보복제(@Payload OrderPlaced orderPlaced){
+    public void wheneverOrderPlaced_CopyOrder(@Payload OrderPlaced orderPlaced){
 
         OrderPlaced event = orderPlaced;
-        System.out.println("\n\n##### listener 주문정보복제 : " + orderPlaced + "\n\n");
+        System.out.println("\n\n##### listener CopyOrder : " + orderPlaced + "\n\n");
 
 
         
 
         // Sample Logic //
-        FoodCooking.주문정보복제(event);
+        FoodCooking.copyOrder(event);
         
 
         

@@ -4,6 +4,7 @@ import food.delivery.infra.AbstractEvent;
 import lombok.Data;
 import java.util.*;
 
+
 @Data
 public class OrderPlaced extends AbstractEvent {
 
@@ -12,4 +13,5 @@ public class OrderPlaced extends AbstractEvent {
     private List<String> options;
     private String address;
     private String customerId;
+    private String storeId;
 }

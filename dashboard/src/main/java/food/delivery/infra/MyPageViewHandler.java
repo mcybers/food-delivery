@@ -14,7 +14,6 @@ import java.util.Optional;
 @Service
 public class MyPageViewHandler {
 
-
     @Autowired
     private MyPageRepository myPageRepository;
 
@@ -98,6 +97,7 @@ public class MyPageViewHandler {
             e.printStackTrace();
         }
     }
+
 
 }
 
