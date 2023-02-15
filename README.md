@@ -38,10 +38,9 @@ Gateway Service Router 설치
 Autoscale (HPA)
 
 ![3 autoscaling](https://user-images.githubusercontent.com/16378278/218912740-2ad31080-4dd2-4ca1-a7e8-2361331b3d22.PNG)
-![3 pod](https://user-images.githubusercontent.com/16378278/218912749-0645c8ad-8be9-4206-a36b-4fbf9a1a144f.PNG)
 ![3 hpa](https://user-images.githubusercontent.com/16378278/218912745-2b14120d-cefe-40ec-8ec6-2901b932b108.PNG)
 ![3 hpa_2](https://user-images.githubusercontent.com/16378278/218912748-3f19e7a4-597b-40db-bec0-52690b6f75dd.PNG)
 ![3 auto](https://user-images.githubusercontent.com/16378278/218912738-f43497e7-746e-4163-8516-7abe41a0b8df.PNG)
-
+![3 pod](https://user-images.githubusercontent.com/16378278/218912749-0645c8ad-8be9-4206-a36b-4fbf9a1a144f.PNG)
 
 
