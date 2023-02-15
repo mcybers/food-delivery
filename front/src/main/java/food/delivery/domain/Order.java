@@ -69,6 +69,9 @@ public class Order  {
         orderCanceled.publishAfterCommit();
 
     }
+    @PreUpdate
+    public void onPreUpdate(){
+    }
 
     public static OrderRepository repository(){
         OrderRepository orderRepository = FrontApplication.applicationContext.getBean(OrderRepository.class);
